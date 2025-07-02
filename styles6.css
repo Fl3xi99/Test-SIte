@@ -5,20 +5,23 @@ body{
     background-image: url(photos/3d-blurred-abstract-red-black-topography_167650-2146.avif);
     background-repeat: none;
     background-size: cover;
+    
 }
 NAV{
     text-align: left;
-    padding: 0px 30px;
+    padding: 0px 50px;
      color: rgb(255,0,51);
+     text-shadow: 2px 2px 5px black;
     /*
     color: black;
     */
     text-decoration: none;
     font-weight: bold;
-    font-size:40px;
     display: flex;
     justify-content: space-between;
   align-items: center; /* vertically align items */
+  margin-top: 0;
+  padding-top: 0;
 }
 nav a{
     color: rgb(255,0,51);
@@ -42,5 +45,46 @@ nav a{
     .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
+.imageopacity {
+  opacity: 0.2;
+}
+.member-list {
+      max-width: 600px;
+      margin: 0 auto;
+      color: rgb(255,0,51);
+    }
+
+    .member {
+      background-color: #23272a;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-left: 6px solid rgb(255,0,51);
+      border-radius: 8px;
+    }
+
+    .name {
+      font-size: 1.2em;
+      font-weight: bolder;
+    }
+
+    .rank {
+      font-size: 0.9em;
+      color: #b9bbbe;
+      font-weight: bold;
+    }
+
+    .profilepicture {
+      font-weight: bold;
+      height: 50px;
+      float: left;
+      margin-right: 20px;
+      border-radius: 50%;
+
+    }
+
+    /* Optional: color coding by rank */
+    .rank.admin { color: #ff5555; }
+    .rank.moderator { color: #faa61a; }
+    .rank.member1 { color: #43b581; }
