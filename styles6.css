@@ -69,6 +69,18 @@ nav a{
       font-weight: bolder;
     }
 
+    .namegame {
+      font-size: 1.2em;
+      font-weight: bolder;
+      font-size: 40px;
+      text-decoration: none;
+    }
+
+    .namegame a {
+      text-decoration: none;
+      color:  rgb(255,0,51);
+    }
+
     .rank {
       font-size: 0.9em;
       color: #b9bbbe;
