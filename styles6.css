@@ -88,3 +88,51 @@ nav a{
     .rank.admin { color: #ff5555; }
     .rank.moderator { color: #faa61a; }
     .rank.member1 { color: #43b581; }
+
+    .fade-in-text {
+      opacity: 0;
+      animation: fadeIn 2s ease-in forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    .midpaced {
+      text-align: center;
+      color: rgb(255,0,51);
+      text-shadow: 2px 2px 5px black;
+    }
+    .dclogo {
+      text-shadow: 2px 2px 5px black;
+      height: 60px;
+    }
+
+    .faq-item {
+      margin-bottom: 10px;
+      border-left: 4px solid rgb(255,0,51);
+      border-radius: 6px;
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+
+    .question {
+      padding: 15px;
+      background-color: #23272a;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+
+    .answer {
+      display: none;
+      padding: 15px;
+      background-color: #23272a;
+      border-radius: 6px;
+    }
+
+    .faq-item.active .answer {
+      display: block;
+    }
